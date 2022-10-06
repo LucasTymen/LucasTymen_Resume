@@ -1,0 +1,76 @@
+body {
+  background-color:#fff;
+  color:#1B98D4;
+  margin:5px;
+  padding:19px;
+  
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+#logo {}
+
+#main_title {}
+
+.bouton {
+  background-color:#1B98D4;
+  margin:10 auto;
+  width:200px;
+  text-align:center;
+  padding:20px;
+  text-decoration:none;
+  color:white;
+  border-radius:5em;
+  transition:0,7;
+  flex:flex;
+}
+
+.bouton:hover {
+  background-color:#F704FC;
+  transition-property: background-color;
+transition-duration: 1s;
+}
+a {
+  text-decoration:none;
+  color:#fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color:#2A31FF;
+  font-size:0.9em;
+}
+
+.span { 
+-webkit-transition-property: padding-left;
+-webkit-transition-duration: 1s;
+-webkit-transition-timing-function: ease-in;
+-moz-transition-property: padding-left;
+-moz-transition-duration: 1s;
+-moz-transition-timing-function: ease-in;
+transition-property: padding-left;
+transition-duration: 1s;
+transition-timing-function: ease-in;}
+
+span:hover, span:focus {
+  color: #F704FC;
+  padding-left: 150px;
+}
+.section {
+    background-color: white;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  margin:5px auto;
+  padding: 0 10 0 10;
+  border-radius:2em
+}
+#nav {
+  padding-top:2em;
+}
